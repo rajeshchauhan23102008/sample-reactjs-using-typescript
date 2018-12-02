@@ -1,0 +1,25 @@
+{
+  "name": "sample-reactjs-using-typescript",
+  "version": "1.0.0",
+  "description": "Sample React App using Typescript Language.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server",
+    "webpack": "webpack -d --watch",
+    "webpack:prod": "webpack -p"
+  },
+  "author": "Rajesh Chauhan",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^16.7.11",
+    "@types/react-dom": "^16.0.11",
+    "lite-server": "^2.4.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "ts-loader": "^5.3.1",
+    "typescript": "^3.2.1",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
